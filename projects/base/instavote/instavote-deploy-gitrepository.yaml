@@ -6,6 +6,8 @@ metadata:
   namespace: instavote
 spec:
   interval: 1m0s
+  secretRef:
+    name: github-instavote
   ref:
     branch: main
-  url: https://github.com/diandianyi05/instavote-deploy
+  url: https://github.com/diandianyi05/instavote-deploy.git
